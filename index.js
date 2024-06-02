@@ -8,7 +8,7 @@ for(var a = 0; a<document.querySelectorAll(".drum").length; a++){
     })
 }
 
-document.addEventListener("keypress", function(input){
+document.addEventListener("keydown", function(input){
     play(input.key)
 })
 
