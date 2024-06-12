@@ -51,6 +51,6 @@ function play(clicked){
                 break;
 
             default:
-                alert("plzz press only given button.")
+                break;
         }
     }
